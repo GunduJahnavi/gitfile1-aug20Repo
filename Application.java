@@ -7,6 +7,13 @@ public class Simple Method Example
         int sum = a + b;
         return sum;
     }
+   
+#feature202 changes on reports module by Ethan in sept 2024
+// Public method to access private members
+    public void accessPrivateMembers() {
+        // Accessing the private field
+        System.out.println("Private Field: " + privateField);
+
 #feature201 changes by Developer vivek for the module paymentgateway sept 2024
 // Main method to run the program
     public static void main(String[] args) {
@@ -20,6 +27,11 @@ public class Simple Method Example
         myObject.publicMethod();
 #end of feature201 code
 
+
+        // Calling the private method
+        privateMethod();
+    }
+#end of feature202 changes
      public static void main(String[] args) 
     {
         // Calling the method and storing the result
